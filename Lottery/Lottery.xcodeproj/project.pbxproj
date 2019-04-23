@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B809F594226F8E9D0088CF44 /* SortedOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809F593226F8E9D0088CF44 /* SortedOperator.swift */; };
+		B809F596226F8EFD0088CF44 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809F595226F8EFD0088CF44 /* GameType.swift */; };
 		B8C2C5292268F78E0093DE00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C2C5282268F78E0093DE00 /* AppDelegate.swift */; };
 		B8C2C52B2268F78E0093DE00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C2C52A2268F78E0093DE00 /* ViewController.swift */; };
 		B8C2C52E2268F78E0093DE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C2C52C2268F78E0093DE00 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B809F593226F8E9D0088CF44 /* SortedOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedOperator.swift; sourceTree = "<group>"; };
+		B809F595226F8EFD0088CF44 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
 		B8C2C5252268F78E0093DE00 /* Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C2C5282268F78E0093DE00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8C2C52A2268F78E0093DE00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B809F597226F8F0C0088CF44 /* Enumerators */ = {
+			isa = PBXGroup;
+			children = (
+				B809F595226F8EFD0088CF44 /* GameType.swift */,
+			);
+			path = Enumerators;
+			sourceTree = "<group>";
+		};
+		B809F598226F8F170088CF44 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				B809F593226F8E9D0088CF44 /* SortedOperator.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
 		B8C2C51C2268F78E0093DE00 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +74,8 @@
 		B8C2C5272268F78E0093DE00 /* Lottery */ = {
 			isa = PBXGroup;
 			children = (
+				B809F597226F8F0C0088CF44 /* Enumerators */,
+				B809F598226F8F170088CF44 /* Operators */,
 				B8C2C5282268F78E0093DE00 /* AppDelegate.swift */,
 				B8C2C52A2268F78E0093DE00 /* ViewController.swift */,
 				B8C2C52C2268F78E0093DE00 /* Main.storyboard */,
@@ -135,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B809F594226F8E9D0088CF44 /* SortedOperator.swift in Sources */,
+				B809F596226F8EFD0088CF44 /* GameType.swift in Sources */,
 				B8C2C52B2268F78E0093DE00 /* ViewController.swift in Sources */,
 				B8C2C5292268F78E0093DE00 /* AppDelegate.swift in Sources */,
 			);

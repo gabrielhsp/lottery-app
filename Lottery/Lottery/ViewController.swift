@@ -8,27 +8,6 @@
 
 import UIKit
 
-enum GameType: String {
-    case megasena = "Mega-Sena"
-    case quina = "Quina"
-}
-
-infix operator >-<
-
-func >-< (total: Int, universe: Int) -> [Int] {
-    var result: [Int] = []
-    
-    while result.count < total {
-        let randomNumber = Int(arc4random_uniform(UInt32(universe)) + 1)
-        
-        if !result.contains(randomNumber) {
-            result.append(randomNumber)
-        }
-    }
-    
-    return result.sorted()
-}
-
 class ViewController: UIViewController {
     @IBOutlet weak var labelGameType: UILabel!
     @IBOutlet weak var segmentedControlGameType: UISegmentedControl!
